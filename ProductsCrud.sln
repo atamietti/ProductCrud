@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCrud", "ProductsCrud\ProductsCrud.csproj", "{B3D85F9E-5E54-4CD1-BE80-6CCBB4081B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCrud.Tests", "ProductsCrud.Tests\ProductsCrud.Tests.csproj", "{F9232CB0-CE2C-4EF5-948E-6B98D642AFE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3D85F9E-5E54-4CD1-BE80-6CCBB4081B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D85F9E-5E54-4CD1-BE80-6CCBB4081B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D85F9E-5E54-4CD1-BE80-6CCBB4081B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D85F9E-5E54-4CD1-BE80-6CCBB4081B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9232CB0-CE2C-4EF5-948E-6B98D642AFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9232CB0-CE2C-4EF5-948E-6B98D642AFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9232CB0-CE2C-4EF5-948E-6B98D642AFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9232CB0-CE2C-4EF5-948E-6B98D642AFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

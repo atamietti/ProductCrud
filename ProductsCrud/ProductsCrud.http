@@ -1,0 +1,32 @@
+@ProductsCrud_HostAddress = http://localhost:5234
+
+### Get All Products
+GET {{ProductsCrud_HostAddress}}/api/products
+Accept: application/json
+
+### Get Product By ID
+GET {{ProductsCrud_HostAddress}}/api/products/1
+Accept: application/json
+
+### Create new Prodcut
+POST {{ProductsCrud_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "price": 49.99
+}
+
+### Update Existing Product
+PUT {{ProductsCrud_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Produtc updated",
+  "price": 59.99
+}
+
+### Delete Product
+DELETE {{ProductsCrud_HostAddress}}/api/products/1
+```
